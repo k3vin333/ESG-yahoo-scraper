@@ -135,7 +135,6 @@ def format_esg_data(esg_df):
     return esg_df[cols]
 
 if __name__ == "__main__":
-    # 1. Read your CSV file containing tickers
     csv_file = "sp500_tickers.csv"
     # Read the CSV file as a simple list of tickers without headers
     df = pd.read_csv(csv_file, header=None, names=['Symbol'])
